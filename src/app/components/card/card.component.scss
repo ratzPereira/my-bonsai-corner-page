@@ -1,0 +1,6 @@
+@import "/src/styles/_variables.scss";
+@import "/src/mixins/card.mixin.scss";
+
+.card-mixin {
+  @include card($bck-color: $foreground-card-color);
+}

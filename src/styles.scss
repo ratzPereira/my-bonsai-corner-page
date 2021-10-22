@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+/* Importing Bootstrap SCSS file & Bootstrap Icons. */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+/* Importing Fonts. */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;700&display=swap");
+
+/* Importing my own variables */
+@import "styles/variables";
+
+body {
+  background-color: $background-color;
+}

@@ -1,0 +1,6 @@
+@mixin card($width: auto, $height: auto, $bck-color: white, $padding: 0px) {
+  width: $width;
+  height: $height;
+  background-color: $bck-color;
+  //padding: $padding;
+}

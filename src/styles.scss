@@ -9,6 +9,11 @@
 /* Importing my own variables */
 @import "styles/variables";
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: $background-color;
+  min-height: 100%;
 }
